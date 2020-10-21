@@ -1,0 +1,32 @@
+.features {
+  &__title {
+    margin: 100px auto 90px;
+    width: 75%;
+    text-align: center;
+    font-size: 46px;
+    line-height: 57px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.feature {
+  width: 400px;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 31px rgba(0, 0, 0, 0.15);
+
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  &__more {
+    color: #03d6f6;
+    font-size: 14px;
+  }
+}

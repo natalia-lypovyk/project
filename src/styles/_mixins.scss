@@ -1,0 +1,11 @@
+@import "vars";
+
+@mixin button {
+  width: 178px;
+  height: 52px;
+  border: 1px solid $c-white;
+  border-radius: 26px;
+  outline: none;
+  cursor: pointer;
+  display: block;
+}

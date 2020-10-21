@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+p,
+a,
+button,
+h1,
+h2,
+h3,
+ul,
+li,
+input {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+
+.wrapper {
+  max-width: 1270px;
+  width: 90%;
+  margin: 0 auto;
+}
